@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - NEXT_PUBLIC_APP_URL=http://localhost:3000
+      - DATABASE_URL=file:./dev.db
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
+    
+  db:
+    image: sqlite:latest
+    volumes:
+      - ./data:/data
+    restart: unless-stopped
+
+networks:
+  default:
+    name: genomic-facility-network

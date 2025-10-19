@@ -7,6 +7,16 @@ Your website is configured to deploy to **both** platforms:
 1. **GitHub Pages**: https://nfdp-genome.github.io/website/
 2. **Cloudflare Pages**: https://website.pages.dev (after setup)
 
+## ✅ FIXED: Deploy Command Issue
+
+The deployment was failing because of the deploy command. This is now fixed with:
+- `wrangler.toml` configured for static assets
+- `.node-version` file added for Node 18
+
+Just push the latest changes and your site will deploy successfully!
+
+---
+
 ## 🚀 Cloudflare Pages Setup (One-Time)
 
 ### Step 1: Get Cloudflare API Token

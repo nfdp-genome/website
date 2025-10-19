@@ -12,6 +12,9 @@ jobs:
       contents: read
       deployments: write
     
+    # Only run if secrets are configured (for GitHub Actions deployment)
+    if: ${{ secrets.CLOUDFLARE_API_TOKEN != '' }}
+    
     steps:
       - name: Checkout
         uses: actions/checkout@v4

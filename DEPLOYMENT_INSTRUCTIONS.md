@@ -1,7 +1,8 @@
 # GitHub Pages Deployment Instructions
 
-## 🚀 Your Site URL
-**https://nfdp-genome.github.io/website/**
+## 🚀 Your Site URLs
+- **Cloudflare Pages**: https://website.alarawms.workers.dev/
+- **GitHub Pages**: https://nfdp-genome.github.io/website/
 
 ## 📋 Deployment Setup Complete
 

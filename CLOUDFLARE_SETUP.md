@@ -5,7 +5,7 @@
 Your website is configured to deploy to **both** platforms:
 
 1. **GitHub Pages**: https://nfdp-genome.github.io/website/
-2. **Cloudflare Pages**: https://website.pages.dev (after setup)
+2. **Cloudflare Pages**: https://website.alarawms.workers.dev/ (after setup)
 
 ## ✅ FIXED: Deploy Command Issue
 
@@ -68,7 +68,7 @@ After setup, you'll have:
 
 | Platform | URL | Use Case |
 |----------|-----|----------|
-| **Cloudflare Pages** | https://website.pages.dev | **Primary (faster, better)** |
+| **Cloudflare Pages** | https://website.alarawms.workers.dev | **Primary (faster, better)** |
 | **GitHub Pages** | https://nfdp-genome.github.io/website/ | Backup/mirror |
 
 ## 📊 Comparison

@@ -3,7 +3,11 @@ title: "DNA Sequencing Services"
 weight: 1
 ---
 
+
+<div class="service-detail-card">
+
 ### 1.1 Whole Genome Sequencing (WGS)
+
 
 **Platform:** Illumina NovaSeq 6000 / NextSeq 2000
 
@@ -33,7 +37,13 @@ weight: 1
 
 ---
 
+
+</div>
+
+<div class="service-detail-card">
+
 ### 1.2 Whole Exome Sequencing (WES)
+
 
 **Platform:** Illumina NovaSeq 6000
 
@@ -53,7 +63,13 @@ weight: 1
 
 ---
 
+
+</div>
+
+<div class="service-detail-card">
+
 ### 1.3 Targeted Sequencing / Gene Panels
+
 
 **Platform:** Illumina MiSeq / NextSeq
 
@@ -80,7 +96,13 @@ weight: 1
 
 ---
 
+
+</div>
+
+<div class="service-detail-card">
+
 ### 1.4 Telomere-to-Telomere (T2T) Genome Assembly
+
 
 **Platform:** PacBio HiFi + ONT Ultra-Long Reads (Hybrid)
 
@@ -109,7 +131,13 @@ weight: 1
 
 ---
 
+
+</div>
+
+<div class="service-detail-card">
+
 ### 1.5 Low-Coverage Sequencing (skim-seq)
+
 
 **Platform:** Illumina NextSeq
 
@@ -127,7 +155,13 @@ weight: 1
 
 ---
 
+
+</div>
+
+<div class="service-detail-card">
+
 ### 1.6 Reduced-Representation Sequencing
+
 
 #### RAD-Seq / ddRAD-Seq
 **Applications:** Linkage mapping, QTL analysis, population genetics
@@ -147,7 +181,13 @@ weight: 1
 
 ---
 
+
+</div>
+
+<div class="service-detail-card">
+
 ### 1.7 Long-Read DNA Sequencing (Oxford Nanopore)
+
 
 **Platform:** PromethION P2i / P2 Solo
 
@@ -200,3 +240,5 @@ weight: 1
 - Real-time/Urgent: 24-72 hours (+50%)
 
 ---
+</div>
+

@@ -36,12 +36,26 @@ def parse_catalog():
             filename = slugify(title) + '.md'
             weight = (i // 2) + 1
             
+            # Custom processing to wrap H3 subsections in cards
+            # Split by ### headers
+            subsections = re.split(r'(^### .+$)', body, flags=re.MULTILINE)
+            
+            # subsections[0] is intro text before first H3
+            new_body = subsections[0]
+            
+            for j in range(1, len(subsections), 2):
+                sub_header = subsections[j]
+                sub_content = subsections[j+1]
+                
+                # Wrap in card div
+                new_body += f'\n<div class="service-detail-card">\n\n{sub_header}\n{sub_content}\n</div>\n'
+
             file_content = f"""---
 title: "{title}"
 weight: {weight}
 ---
 
-{body}
+{new_body}
 """
             with open(os.path.join(output_dir, filename), 'w') as f:
                 f.write(file_content)

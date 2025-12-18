@@ -3,7 +3,11 @@ title: "RNA Sequencing Services"
 weight: 2
 ---
 
+
+<div class="service-detail-card">
+
 ### 2.1 mRNA-Seq (Poly-A Selection)
+
 
 **Platform:** Illumina NovaSeq 6000 / NextSeq 2000
 
@@ -30,7 +34,13 @@ weight: 2
 
 ---
 
+
+</div>
+
+<div class="service-detail-card">
+
 ### 2.2 Total RNA-Seq (Ribo-depletion)
+
 
 **Applications:**
 - Non-coding RNA profiling
@@ -43,7 +53,13 @@ weight: 2
 
 ---
 
+
+</div>
+
+<div class="service-detail-card">
+
 ### 2.3 Small RNA-Seq
+
 
 **Platform:** Illumina NextSeq
 
@@ -66,7 +82,13 @@ weight: 2
 
 ---
 
+
+</div>
+
+<div class="service-detail-card">
+
 ### 2.4 Long-Read Transcriptome Sequencing (Iso-Seq)
+
 
 **Platform:** PacBio Sequel II / ONT PromethION
 
@@ -83,7 +105,13 @@ weight: 2
 
 ---
 
+
+</div>
+
+<div class="service-detail-card">
+
 ### 2.5 Single-Cell RNA-Seq (scRNA-Seq)
+
 
 **Platform:** 10x Genomics Chromium
 
@@ -99,3 +127,5 @@ weight: 2
 **Turnaround:** 5-6 weeks
 
 ---
+</div>
+

@@ -3,7 +3,11 @@ title: "Epigenomics Services"
 weight: 3
 ---
 
+
+<div class="service-detail-card">
+
 ### 3.1 Whole Genome Bisulfite Sequencing (WGBS)
+
 
 **Platform:** Illumina NovaSeq 6000
 
@@ -24,7 +28,13 @@ weight: 3
 
 ---
 
+
+</div>
+
+<div class="service-detail-card">
+
 ### 3.2 Reduced-Representation Bisulfite Sequencing (RRBS)
+
 
 **Applications:**
 - Cost-effective methylation screening
@@ -38,7 +48,13 @@ weight: 3
 
 ---
 
+
+</div>
+
+<div class="service-detail-card">
+
 ### 3.3 ChIP-Sequencing (ChIP-Seq)
+
 
 **Platform:** Illumina NextSeq
 
@@ -55,7 +71,13 @@ weight: 3
 
 ---
 
+
+</div>
+
+<div class="service-detail-card">
+
 ### 3.4 ATAC-Seq
+
 
 **Applications:**
 - Open chromatin profiling
@@ -68,3 +90,5 @@ weight: 3
 **Turnaround:** 4-5 weeks
 
 ---
+</div>
+

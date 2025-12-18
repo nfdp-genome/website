@@ -3,7 +3,11 @@ title: "Single-Cell Services"
 weight: 7
 ---
 
+
+<div class="service-detail-card">
+
 ### 7.1 Single-Cell RNA-Seq (10x Genomics)
+
 
 **Applications:**
 - Cell atlas generation
@@ -24,7 +28,13 @@ weight: 7
 
 ---
 
+
+</div>
+
+<div class="service-detail-card">
+
 ### 7.2 Single-Cell ATAC-Seq
+
 
 **Applications:**
 - Single-cell chromatin accessibility
@@ -36,7 +46,13 @@ weight: 7
 
 ---
 
+
+</div>
+
+<div class="service-detail-card">
+
 ### 7.3 Single-Nucleus RNA-Seq
+
 
 **Applications:**
 - Frozen tissue analysis
@@ -47,3 +63,5 @@ weight: 7
 **Turnaround:** 5-6 weeks
 
 ---
+</div>
+

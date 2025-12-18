@@ -3,7 +3,11 @@ title: "Genotyping Services"
 weight: 5
 ---
 
+
+<div class="service-detail-card">
+
 ### 5.1 SNP Array Genotyping
+
 
 **Platforms:**
 - Illumina Infinium (Custom or catalog arrays)
@@ -28,7 +32,13 @@ weight: 5
 
 ---
 
+
+</div>
+
+<div class="service-detail-card">
+
 ### 5.2 Microsatellite (STR) Genotyping
+
 
 **Applications:**
 - Parentage testing
@@ -43,7 +53,13 @@ weight: 5
 
 ---
 
+
+</div>
+
+<div class="service-detail-card">
+
 ### 5.3 KASP Genotyping
+
 
 **Applications:**
 - Marker-assisted selection
@@ -55,3 +71,5 @@ weight: 5
 **Turnaround:** 1-2 weeks
 
 ---
+</div>
+

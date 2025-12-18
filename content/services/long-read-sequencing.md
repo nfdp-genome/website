@@ -3,7 +3,11 @@ title: "Long-Read Sequencing"
 weight: 6
 ---
 
+
+<div class="service-detail-card">
+
 ### 6.1 PacBio HiFi Sequencing
+
 
 **Platform:** PacBio Sequel II / Revio
 
@@ -31,7 +35,13 @@ weight: 6
 
 ---
 
+
+</div>
+
+<div class="service-detail-card">
+
 ### 6.2 Oxford Nanopore Sequencing
+
 
 **Platform:** PromethION / MinION
 
@@ -55,7 +65,13 @@ weight: 6
 
 ---
 
+
+</div>
+
+<div class="service-detail-card">
+
 ### 6.3 Hybrid Assembly (Illumina + Long-Read)
+
 
 **Combination:**
 - Illumina short reads (100x) for accuracy
@@ -66,3 +82,5 @@ weight: 6
 **Turnaround:** 6-8 weeks
 
 ---
+</div>
+

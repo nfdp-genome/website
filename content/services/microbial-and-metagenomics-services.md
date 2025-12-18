@@ -3,7 +3,11 @@ title: "Microbial & Metagenomics Services"
 weight: 4
 ---
 
+
+<div class="service-detail-card">
+
 ### 4.1 16S rRNA Amplicon Sequencing
+
 
 **Platform:** Illumina MiSeq
 
@@ -26,7 +30,13 @@ weight: 4
 
 ---
 
+
+</div>
+
+<div class="service-detail-card">
+
 ### 4.2 ITS Amplicon Sequencing
+
 
 **Applications:**
 - Fungal community profiling
@@ -40,7 +50,13 @@ weight: 4
 
 ---
 
+
+</div>
+
+<div class="service-detail-card">
+
 ### 4.3 Shotgun Metagenomics
+
 
 **Platform:** Illumina NovaSeq 6000
 
@@ -63,7 +79,13 @@ weight: 4
 
 ---
 
+
+</div>
+
+<div class="service-detail-card">
+
 ### 4.4 Metatranscriptomics
+
 
 **Applications:**
 - Active microbial functions
@@ -77,7 +99,13 @@ weight: 4
 
 ---
 
+
+</div>
+
+<div class="service-detail-card">
+
 ### 4.5 Bacterial Whole Genome Sequencing
+
 
 **Platform:** Illumina MiSeq / NextSeq
 
@@ -95,7 +123,13 @@ weight: 4
 
 ---
 
+
+</div>
+
+<div class="service-detail-card">
+
 ### 4.6 Viral Genome Sequencing
+
 
 **Platform:** Illumina MiSeq / ONT MinION
 
@@ -111,3 +145,5 @@ weight: 4
 **Turnaround:** 10-14 days
 
 ---
+</div>
+

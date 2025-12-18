@@ -3,7 +3,11 @@ title: "Bioinformatics & Analysis"
 weight: 8
 ---
 
+
+<div class="service-detail-card">
+
 ### 8.1 Standard Analysis Pipelines
+
 
 **Included with Sequencing Services:**
 - Quality control reports
@@ -22,7 +26,13 @@ weight: 8
 
 ---
 
+
+</div>
+
+<div class="service-detail-card">
+
 ### 8.2 Custom Analysis
+
 
 **Hourly Consulting:** 150-350 SAR/hour
 
@@ -65,3 +75,5 @@ weight: 8
 
 **Document Version:** 1.0  
 **Last Updated:** December 2025
+</div>
+

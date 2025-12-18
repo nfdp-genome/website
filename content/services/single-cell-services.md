@@ -19,10 +19,6 @@ weight: 7
 - 5' Gene Expression
 - Multiome (ATAC + Gene Expression)
 
-**Price:**
-- 3' (up to 10K cells): 12,000 SAR
-- 5' (up to 10K cells): 15,000 SAR
-- Multiome: 25,000 SAR
 
 **Turnaround:** 5-6 weeks
 
@@ -40,7 +36,6 @@ weight: 7
 - Single-cell chromatin accessibility
 - Regulatory landscape
 
-**Price:** 18,000 SAR (up to 10K cells)
 
 **Turnaround:** 6 weeks
 
@@ -58,7 +53,6 @@ weight: 7
 - Frozen tissue analysis
 - Brain tissue profiling
 
-**Price:** 14,000 SAR (up to 10K nuclei)
 
 **Turnaround:** 5-6 weeks
 

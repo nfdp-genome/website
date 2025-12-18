@@ -18,7 +18,6 @@ weight: 3
 
 **Coverage:** 30x
 
-**Price:** 5,500 SAR/sample
 
 **Sample Requirements:**
 - DNA: 2-5 μg
@@ -42,7 +41,6 @@ weight: 3
 
 **Coverage:** 50-100x (at CpG sites)
 
-**Price:** 2,800 SAR/sample
 
 **Turnaround:** 5-6 weeks
 
@@ -65,7 +63,6 @@ weight: 3
 
 **Read Depth:** 20-40M reads
 
-**Price:** 3,500 SAR/sample
 
 **Turnaround:** 5-6 weeks
 
@@ -85,7 +82,6 @@ weight: 3
 
 **Read Depth:** 50M reads
 
-**Price:** 3,200 SAR/sample
 
 **Turnaround:** 4-5 weeks
 

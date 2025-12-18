@@ -20,12 +20,12 @@ weight: 1
 
 **Coverage Options:**
 
-| **Coverage** | **Read Length** | **Applications** | **Price (SAR)** |
-|--------------|----------------|------------------|-----------------|
-| 10x | PE150 | Variant calling, basic analysis | 2,500/sample |
-| 30x | PE150 | High-quality variant calling | 4,500/sample |
-| 60x | PE150 | SV detection, haplotyping | 8,000/sample |
-| 100x+ | PE150 | De novo assembly, clinical | Custom Quote |
+| **Coverage** | **Read Length** | **Applications** |
+|--------------|----------------|------------------|
+| 10x | PE150 | Variant calling, basic analysis |
+| 30x | PE150 | High-quality variant calling |
+| 60x | PE150 | SV detection, haplotyping |
+| 100x+ | PE150 | De novo assembly, clinical |
 
 **Sample Requirements:**
 - DNA: 1-2 μg
@@ -57,7 +57,6 @@ weight: 1
 - **Target:** ~50-60 Mb exonic regions
 - **Capture:** Custom or commercial enrichment kits
 
-**Price:** 3,500 SAR/sample
 
 **Turnaround:** 4-5 weeks
 
@@ -83,12 +82,12 @@ weight: 1
 
 **Panel Size Options:**
 
-| **Panel Type** | **Size** | **Applications** | **Price (SAR)** |
-|---------------|---------|------------------|-----------------|
-| Single Gene | <50 kb | Targeted mutation screening | 800/sample |
-| Small Panel | 50-500 kb | Disease gene panels | 1,200/sample |
-| Medium Panel | 0.5-5 Mb | Pathway analysis | 2,000/sample |
-| Large Panel | 5-20 Mb | Clinical exome | 3,200/sample |
+| **Panel Type** | **Size** | **Applications** |
+|---------------|---------|------------------|
+| Single Gene | <50 kb | Targeted mutation screening |
+| Small Panel | 50-500 kb | Disease gene panels |
+| Medium Panel | 0.5-5 Mb | Pathway analysis |
+| Large Panel | 5-20 Mb | Clinical exome |
 
 **Custom Design Fee:** 5,000-15,000 SAR (one-time)
 
@@ -117,10 +116,6 @@ weight: 1
 - **ONT Ultra-Long:** 30x coverage (N50 >100 kb)
 - **Hi-C:** For scaffolding (optional)
 
-**Price:** 
-- Bacterial T2T (3-8 Mb): 18,000 SAR
-- Small eukaryote (50-500 Mb): 80,000 SAR
-- Large genome (1-3 Gb): 200,000-500,000 SAR
 
 **Sample Requirements:**
 - Ultra-high MW DNA (>50 kb)
@@ -149,7 +144,6 @@ weight: 1
 
 **Coverage:** 0.1x - 5x
 
-**Price:** 400-1,200 SAR/sample
 
 **Turnaround:** 3-4 weeks
 
@@ -170,12 +164,10 @@ weight: 1
 - 10,000-100,000 SNPs
 - Multiplexing: up to 96 samples/lane
 
-**Price:** 450 SAR/sample
 
 #### GBS (Genotyping-by-Sequencing)
 **Applications:** Genomic selection, GWAS
 
-**Price:** 350 SAR/sample
 
 **Turnaround:** 4-5 weeks
 
@@ -206,14 +198,13 @@ weight: 1
 
 **Coverage Options:**
 
-| **Coverage** | **Applications** | **Price (SAR)** |
-|--------------|------------------|-----------------|
-| 30x | Standard assembly, SV detection | 5,500/Gb |
-| 50x | High-quality assembly | 5,000/Gb |
-| 100x | T2T assembly, complex genomes | 4,500/Gb |
-| 150x+ | Ultra-high quality, methylation calling | 4,000/Gb |
+| **Coverage** | **Applications** |
+|--------------|------------------|
+| 30x | Standard assembly, SV detection |
+| 50x | High-quality assembly |
+| 100x | T2T assembly, complex genomes |
+| 150x+ | Ultra-high quality, methylation calling |
 
-**Minimum order:** 10 Gb per sample
 
 **Sample Requirements:**
 - **Standard reads (10-50 kb):**

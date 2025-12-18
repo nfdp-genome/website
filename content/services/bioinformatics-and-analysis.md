@@ -16,13 +16,13 @@ weight: 8
 
 **Add-on Analysis:**
 
-| **Service** | **Applications** | **Price (SAR)** |
-|------------|------------------|-----------------|
-| Advanced Variant Annotation | Functional impact, pathogenicity | +2,000/project |
-| Differential Expression | RNA-Seq analysis | +3,500/project |
-| Genome Assembly | De novo or reference-guided | +5,000/genome |
-| Phylogenetic Analysis | Tree construction, dating | +2,500/project |
-| Metagenome Binning | MAG assembly | +4,000/project |
+| **Service** | **Applications** |
+|------------|------------------|
+| Advanced Variant Annotation | Functional impact, pathogenicity |
+| Differential Expression | RNA-Seq analysis |
+| Genome Assembly | De novo or reference-guided |
+| Phylogenetic Analysis | Tree construction, dating |
+| Metagenome Binning | MAG assembly |
 
 ---
 

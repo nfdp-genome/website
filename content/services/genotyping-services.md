@@ -21,12 +21,12 @@ weight: 5
 
 **Array Density Options:**
 
-| **Density** | **SNPs** | **Species Examples** | **Price (SAR)** |
-|------------|---------|----------------------|-----------------|
-| Low Density | 10K-30K | Livestock, Aquaculture | 150/sample |
-| Medium Density | 50K-100K | Livestock breeding | 280/sample |
-| High Density | 600K-1M | Cattle, Sheep | 450/sample |
-| Custom Array | Variable | Any species | Custom Quote |
+| **Density** | **SNPs** | **Species Examples** |
+|------------|---------|----------------------|
+| Low Density | 10K-30K | Livestock, Aquaculture |
+| Medium Density | 50K-100K | Livestock breeding |
+| High Density | 600K-1M | Cattle, Sheep |
+| Custom Array | Variable | Any species |
 
 **Turnaround:** 3-4 weeks
 
@@ -47,7 +47,6 @@ weight: 5
 
 **Markers:** 12-25 STRs
 
-**Price:** 250 SAR/sample (trio: 550 SAR)
 
 **Turnaround:** 2 weeks
 
@@ -66,7 +65,6 @@ weight: 5
 - Trait-specific SNPs
 - Validation
 
-**Price:** 15-30 SAR/marker/sample (volume dependent)
 
 **Turnaround:** 1-2 weeks
 

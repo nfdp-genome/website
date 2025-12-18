@@ -19,11 +19,11 @@ weight: 2
 
 **Read Depth Options:**
 
-| **Depth** | **Recommended For** | **Price (SAR)** |
-|-----------|---------------------|-----------------|
-| 20M reads | Model organisms, well-annotated genomes | 1,500/sample |
-| 40M reads | Standard mammalian transcriptomes | 2,200/sample |
-| 60M+ reads | Non-model organisms, discovery | 3,500/sample |
+| **Depth** | **Recommended For** |
+|-----------|---------------------|
+| 20M reads | Model organisms, well-annotated genomes |
+| 40M reads | Standard mammalian transcriptomes |
+| 60M+ reads | Non-model organisms, discovery |
 
 **Sample Requirements:**
 - Total RNA: 1-2 μg
@@ -47,7 +47,6 @@ weight: 2
 - Bacterial transcriptomics
 - Degraded RNA samples
 
-**Price:** 2,500 SAR/sample
 
 **Turnaround:** 4-5 weeks
 
@@ -76,7 +75,6 @@ weight: 2
 - Total RNA: 500 ng - 1 μg
 - RIN ≥7.0
 
-**Price:** 1,800 SAR/sample
 
 **Turnaround:** 4 weeks
 
@@ -97,9 +95,6 @@ weight: 2
 - Fusion transcript detection
 - Alternative splicing without assembly
 
-**Price:**
-- PacBio Iso-Seq: 8,000 SAR/sample
-- ONT Direct RNA-Seq: 6,500 SAR/sample
 
 **Turnaround:** 5-6 weeks
 
@@ -120,9 +115,6 @@ weight: 2
 - Developmental trajectories
 - Tumor heterogeneity
 
-**Price:**
-- 3' Gene Expression: 12,000 SAR (up to 10K cells)
-- 5' Gene Expression + VDJ: 18,000 SAR
 
 **Turnaround:** 5-6 weeks
 

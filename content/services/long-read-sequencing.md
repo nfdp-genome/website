@@ -23,13 +23,12 @@ weight: 6
 
 **Coverage Options:**
 
-| **Coverage** | **Applications** | **Price (SAR)** |
-|--------------|------------------|-----------------|
-| 30x | Standard assembly | 18,000/Gb |
-| 50x | High-quality assembly | 16,000/Gb |
-| 80x+ | T2T assembly | 15,000/Gb |
+| **Coverage** | **Applications** |
+|--------------|------------------|
+| 30x | Standard assembly |
+| 50x | High-quality assembly |
+| 80x+ | T2T assembly |
 
-**Minimum order:** 15 Gb
 
 **Turnaround:** 4-5 weeks
 
@@ -55,11 +54,11 @@ weight: 6
 
 **Coverage Options:**
 
-| **Coverage** | **Platform** | **Price (SAR)** |
-|--------------|-------------|-----------------|
-| 30x | MinION | 8,000/Gb |
-| 50x | PromethION | 6,500/Gb |
-| 100x+ | PromethION | 6,000/Gb |
+| **Coverage** | **Platform** |
+|--------------|-------------|
+| 30x | MinION |
+| 50x | PromethION |
+| 100x+ | PromethION |
 
 **Turnaround:** 2-4 weeks
 
@@ -77,7 +76,6 @@ weight: 6
 - Illumina short reads (100x) for accuracy
 - PacBio/ONT long reads (50x) for contiguity
 
-**Price:** Custom quote based on genome size
 
 **Turnaround:** 6-8 weeks
 

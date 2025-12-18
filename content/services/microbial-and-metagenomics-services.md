@@ -18,11 +18,11 @@ weight: 4
 
 **Regions:**
 
-| **Region** | **Primers** | **Applications** | **Price (SAR)** |
-|-----------|------------|------------------|-----------------|
-| V3-V4 | 341F/805R | Standard bacterial profiling | 650/sample |
-| V4 | 515F/806R | Gut microbiome | 600/sample |
-| Full Length | 27F/1492R | High-resolution taxonomy | 1,200/sample |
+| **Region** | **Primers** | **Applications** |
+|-----------|------------|------------------|
+| V3-V4 | 341F/805R | Standard bacterial profiling |
+| V4 | 515F/806R | Gut microbiome |
+| Full Length | 27F/1492R | High-resolution taxonomy |
 
 **Read Depth:** 50,000-100,000 reads/sample
 
@@ -44,7 +44,6 @@ weight: 4
 
 **Regions:** ITS1 or ITS2
 
-**Price:** 700 SAR/sample
 
 **Turnaround:** 3-4 weeks
 
@@ -68,12 +67,12 @@ weight: 4
 
 **Read Depth Options:**
 
-| **Depth** | **Applications** | **Price (SAR)** |
-|-----------|------------------|-----------------|
-| 10M reads | Simple communities | 2,500/sample |
-| 25M reads | Standard microbiomes | 3,800/sample |
-| 50M reads | Complex communities | 6,000/sample |
-| 100M+ reads | Deep profiling, MAG assembly | Custom Quote |
+| **Depth** | **Applications** |
+|-----------|------------------|
+| 10M reads | Simple communities |
+| 25M reads | Standard microbiomes |
+| 50M reads | Complex communities |
+| 100M+ reads | Deep profiling, MAG assembly |
 
 **Turnaround:** 5-6 weeks
 
@@ -93,7 +92,6 @@ weight: 4
 
 **Read Depth:** 50M reads
 
-**Price:** 5,500 SAR/sample
 
 **Turnaround:** 6-7 weeks
 
@@ -117,7 +115,6 @@ weight: 4
 
 **Coverage:** 100-200x
 
-**Price:** 1,200 SAR/isolate
 
 **Turnaround:** 2-3 weeks
 
@@ -138,9 +135,6 @@ weight: 4
 - Vaccine strain matching
 - Phylogenetic analysis
 
-**Price:**
-- Illumina: 1,800 SAR/sample
-- ONT (Real-time): 2,500 SAR/sample
 
 **Turnaround:** 10-14 days
 

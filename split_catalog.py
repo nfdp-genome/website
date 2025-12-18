@@ -4,6 +4,41 @@ import os
 def slugify(text):
     return text.lower().strip().replace(' ', '-').replace('&', 'and').replace(',', '').replace('.', '')
 
+def clean_pricing(text):
+    lines = text.split('\n')
+    new_lines = []
+    in_pricing_table = False
+    
+    for line in lines:
+        stripped = line.strip()
+        
+        # Remove list items with SAR
+        if re.search(r'^\s*-\s.*SAR', line):
+            continue
+            
+        # Remove specific Price/Minimum order lines (bolded headers)
+        if re.search(r'^\*\*(Price|Minimum order)', stripped):
+            continue
+
+        # Table processing
+        if stripped.startswith('|'):
+            # Detect header with Price
+            if 'Price' in stripped and 'SAR' in stripped:
+                in_pricing_table = True
+            
+            if in_pricing_table:
+                # Remove last column: find last pipe not at end
+                # Regex matches | content | at end of line (ignoring trailing whitespace)
+                line = re.sub(r'\|[^|]+\|\s*$', '|', line)
+        else:
+            # If we hit a non-table line (usually empty), reset table mode
+            if stripped == "":
+                in_pricing_table = False
+        
+        new_lines.append(line)
+        
+    return '\n'.join(new_lines)
+
 def parse_catalog():
     source_file = 'service_catalog/technology_services_catalog.md'
     output_dir = 'content/services'
@@ -15,13 +50,9 @@ def parse_catalog():
         content = f.read()
 
     # Split by major sections (## X. Title)
-    # The regex looks for ## followed by a number, a dot, and the title
     sections = re.split(r'(^## \d+\. .+$)', content, flags=re.MULTILINE)
 
-    # sections[0] is intro (ignore or put in _index.md)
-    # sections[1] is header1, sections[2] is content1, etc.
-    
-    # Create _index.md for the services section
+    # _index.md
     with open(f'{output_dir}/_index.md', 'w') as f:
         f.write('---\ntitle: "Service Catalog"\nlayout: "list"\n---\n\nExplore our comprehensive range of genomic and data science services.\n')
 
@@ -29,23 +60,21 @@ def parse_catalog():
         header = sections[i].strip()
         body = sections[i+1].strip()
         
-        # Extract title "DNA Sequencing Services" from "## 1. DNA Sequencing Services"
         title_match = re.search(r'## \d+\. (.+)', header)
         if title_match:
             title = title_match.group(1)
             filename = slugify(title) + '.md'
             weight = (i // 2) + 1
             
-            # Custom processing to wrap H3 subsections in cards
             # Split by ### headers
             subsections = re.split(r'(^### .+$)', body, flags=re.MULTILINE)
             
-            # subsections[0] is intro text before first H3
-            new_body = subsections[0]
+            new_body = clean_pricing(subsections[0])
             
             for j in range(1, len(subsections), 2):
                 sub_header = subsections[j]
-                sub_content = subsections[j+1]
+                # Apply pricing cleaner to the content of the subsection
+                sub_content = clean_pricing(subsections[j+1])
                 
                 # Wrap in card div
                 new_body += f'\n<div class="service-detail-card">\n\n{sub_header}\n{sub_content}\n</div>\n'

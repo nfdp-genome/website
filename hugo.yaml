@@ -1,4 +1,4 @@
-baseURL: 'https://nfldp.gov.sa/'
+baseURL: 'https://nfdp-genome.github.io/website/'
 languageCode: 'en-us'
 title: 'NFLDP Genomic Facility'
 theme: []

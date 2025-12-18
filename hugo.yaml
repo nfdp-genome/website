@@ -1,0 +1,33 @@
+baseURL: 'https://nfldp.gov.sa/'
+languageCode: 'en-us'
+title: 'NFLDP Genomic Facility'
+theme: []
+
+menu:
+  main:
+    - name: "Who We Are"
+      url: "#who-we-are"
+      weight: 1
+    - name: "What We Do"
+      url: "#what-we-do"
+      weight: 2
+    - name: "Why It Matters"
+      url: "#why-it-matters"
+      weight: 3
+    - name: "Success Stories"
+      url: "#success-stories"
+      weight: 4
+    - name: "Services"
+      url: "#services"
+      weight: 5
+    - name: "Contact"
+      url: "#contact"
+      weight: 6
+    - name: "Wiki"
+      url: "/wiki"
+      weight: 7
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+<!-- Hero Section -->
+<section id="hero"
+    style="background: linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url('{{ .Params.hero_image }}') no-repeat center center/cover;">
+    <div class="hero-content">
+        <h1>{{ .Params.hero_headline }}</h1>
+        <p>{{ .Content }}</p>
+        <a href="#who-we-are" class="cta-button">Learn More</a>
+    </div>
+</section>
+
+<!-- Sections -->
+{{ $sections := where .Site.RegularPages "Section" "sections" }}
+{{ range sort $sections "Params.weight" }}
+<section id="{{ .File.ContentBaseName }}">
+    <div class="container">
+        <h2>{{ .Title }}</h2>
+        <div class="content-container">
+            {{ .Content }}
+        </div>
+    </div>
+</section>
+{{ end }}
+
+{{ end }}

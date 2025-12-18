@@ -1,0 +1,34 @@
+graph LR
+    %% Nodes
+    Farmer([Farmer])
+    Consultant[Breeding Consultant]
+    Lab[Lab Operations]
+    Bioinfo[Bioinformatics]
+    Report([Report])
+
+    %% Decisions
+    ReqCheck{Requirements<br/>Met?}
+    QC{QC<br/>Passed?}
+
+    %% Flow
+    Farmer <-->|Goals| Consultant
+    Consultant <-->|Specs| Lab
+    
+    Lab --> ReqCheck
+    ReqCheck -->|No| Consultant
+    ReqCheck -->|Yes| Lab
+    
+    Lab -->|Process| QC
+    QC -->|No| Lab
+    QC -->|Yes| Bioinfo
+    
+    Bioinfo -->|Analysis| Report
+    Report -->|Insights| Consultant
+    Consultant -->|Results| Farmer
+
+    %% Styling
+    classDef role fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
+    classDef decision fill:#fff9c4,stroke:#fbc02d,stroke-width:2px;
+    
+    class Consultant,Lab,Bioinfo role;
+    class ReqCheck,QC decision;

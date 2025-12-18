@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NFLDP Implementation Wiki on NFLDP Genomic Facility</title>
+    <link>http://localhost:1313/wiki/</link>
+    <description>Recent content in NFLDP Implementation Wiki on NFLDP Genomic Facility</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/wiki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Platform Architecture</title>
+      <link>http://localhost:1313/wiki/architecture/</link>
+      <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/wiki/architecture/</guid>
+      <description>&lt;h2 id=&#34;system-overview&#34;&gt;System Overview&lt;/h2&gt;&#xA;&lt;p&gt;The NFLDP platform utilizes a &lt;strong&gt;cloud-native, microservices-based architecture&lt;/strong&gt; designed for scalability and high availability.&lt;/p&gt;&#xA;&lt;h3 id=&#34;core-components&#34;&gt;Core Components&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Ingestion Layer&lt;/strong&gt;: Handles raw genomic data upload and validation.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Processing Pipeline&lt;/strong&gt;: Nextflow-based workflows for variant calling and assembly.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Data Lake&lt;/strong&gt;: S3-compatible storage for massive dataset retention.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Knowledge Graph&lt;/strong&gt;: Semantic layer linking genotype to phenotype.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;tech-stack&#34;&gt;Tech Stack&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Frontend&lt;/strong&gt;: Next.js (React) / Hugo (Documentation)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Backend&lt;/strong&gt;: Python (FastAPI), Go&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Database&lt;/strong&gt;: PostgreSQL, Neo4j&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Orchestration&lt;/strong&gt;: Kubernetes&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

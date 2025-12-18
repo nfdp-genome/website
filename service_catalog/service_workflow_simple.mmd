@@ -1,0 +1,17 @@
+graph LR
+    Farmer([Farmer])
+    Consultant[Breeding Consultant]
+    Lab[Lab]
+    Bioinfo[Bioinformatics]
+    Report([Report])
+
+    Farmer -->|Goals| Consultant
+    Consultant -->|Specs| Lab
+    Lab -->|Samples| Lab
+    Lab -->|Data| Bioinfo
+    Bioinfo -->|Analysis| Report
+    Report -->|Insights| Consultant
+    Consultant -->|Results| Farmer
+
+    classDef role fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
+    class Consultant,Lab,Bioinfo role;

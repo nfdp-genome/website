@@ -1,0 +1,50 @@
+graph TB
+    subgraph Phase1["Phase 1: Consultation & Requirements"]
+        direction TB
+        Farmer1([Farmer / Customer])
+        Consultant1[Breeding Consultant]
+        Lab1[Lab Specs Check]
+        
+        Farmer1 <-->|Define Goals| Consultant1
+        Consultant1 <-->|Check Requirements| Lab1
+    end
+
+    subgraph Phase2["Phase 2: Sample Processing & QC"]
+        direction TB
+        Samples[Sample Submission]
+        Isolation[DNA Isolation]
+        SeqGeno[Sequencing/Genotyping]
+        QC{QC Passed?}
+        
+        Samples --> Isolation
+        Isolation --> SeqGeno
+        SeqGeno --> QC
+        QC -- No --> Samples
+        QC -- Yes --> Done2[Data Ready]
+    end
+
+    subgraph Phase3["Phase 3: Analysis & Delivery"]
+        direction TB
+        Bioinfo1[Bioinformatics Analysis]
+        Models[Run Models & Algorithms]
+        Report1[Generate Report]
+        Consultant2[Breeding Consultant]
+        Farmer2([Farmer / Customer])
+        
+        Bioinfo1 --> Models
+        Models --> Report1
+        Report1 --> Consultant2
+        Consultant2 --> Farmer2
+    end
+
+    Phase1 --> Phase2
+    Phase2 --> Phase3
+
+    %% Styling
+    classDef phaseBox fill:#f5f5f5,stroke:#424242,stroke-width:2px;
+    classDef role fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
+    classDef decision fill:#fff9c4,stroke:#fbc02d,stroke-width:2px;
+    
+    class Phase1,Phase2,Phase3 phaseBox;
+    class Consultant1,Lab1,Bioinfo1,Models,Consultant2 role;
+    class QC decision;

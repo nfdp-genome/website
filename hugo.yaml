@@ -24,7 +24,7 @@ menu:
       url: "#contact"
       weight: 6
     - name: "Wiki"
-      url: "/wiki"
+      pageRef: "/wiki"
       weight: 7
 
 markup:

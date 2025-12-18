@@ -46,6 +46,4 @@ Enhanced genomic services tailored to your research and breeding needs.
 2.  **Tracking and Understanding Diseases** – Proactive Animal Health Management
 3.  **Data Resources, Visualization & Analytical Tools**
 
-<div style="text-align: center; margin-top: 2rem;">
-    <a href="/services" class="cta-button">View Full Service Catalog</a>
-</div>
+{{< button href="/services/" text="View Full Service Catalog" >}}

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1",
+    "question": {
+      "ar": "ما هي الخدمات التي يقدمها البرنامج الوطني؟",
+      "en": "What services does the National Program offer?"
+    },
+    "answer": {
+      "ar": "يقدم البرنامج مجموعة شاملة من الخدمات تشمل: التحليل الجيني المتقدم، تحليل البيانات الصحية والوبائية، حماية الثروة الحيوانية من مسببات الأمراض، والتعاون الدولي لتبادل المعرفة والخبرات. كما نقدم ثلاث باقات خدمية مختلفة تناسب احتياجات الأفراد والمؤسسات.",
+      "en": "The program offers a comprehensive range of services including: advanced genetic analysis, health and epidemiological data analysis, protection of livestock from pathogens, and international collaboration for knowledge exchange. We also offer three different service packages to suit individual and institutional needs."
+    }
+  },
+  {
+    "id": "2",
+    "question": {
+      "ar": "كيف يمكنني الاستفادة من خدمات التحليل الجيني؟",
+      "en": "How can I benefit from genetic analysis services?"
+    },
+    "answer": {
+      "ar": "يمكنك التواصل معنا عبر نموذج الاتصال أو البريد الإلكتروني لتقديم طلب الخدمة. سيقوم فريقنا بمراجعة طلبك وتحديد الباقة المناسبة لاحتياجاتك، ثم سنرشدك خلال عملية جمع العينات وإرسالها لمختبراتنا.",
+      "en": "You can contact us through the contact form or email to submit a service request. Our team will review your request and determine the appropriate package for your needs, then guide you through the sample collection and submission process."
+    }
+  },
+  {
+    "id": "3",
+    "question": {
+      "ar": "ما هي أنواع الحيوانات التي يشملها البرنامج؟",
+      "en": "What types of animals does the program cover?"
+    },
+    "answer": {
+      "ar": "يركز البرنامج على سبعة أنواع رئيسية: الإبل، الأغنام، الماشية، الدجاج، الخيول، الماعز، والموارد المائية (الأسماك). نعمل على تطوير قواعد بيانات جينومية مرجعية لكل نوع لدعم جهود التحسين الوراثي والحفاظ على السلالات المحلية.",
+      "en": "The program focuses on seven main types: camels, sheep, cattle, chickens, horses, goats, and aquatic resources (fish). We work on developing reference genomic databases for each type to support genetic improvement efforts and preserve local breeds."
+    }
+  },
+  {
+    "id": "4",
+    "question": {
+      "ar": "هل خدمات البرنامج متاحة للأفراد أم المؤسسات فقط؟",
+      "en": "Are the program's services available to individuals or institutions only?"
+    },
+    "answer": {
+      "ar": "خدماتنا متاحة للجميع! نقدم الباقة الأساسية للأفراد والشركات الناشئة، والباقة المتقدمة للمؤسسات والمنظمات، وباقة الشراكة للمؤسسات الكبيرة التي تحتاج حلولاً مخصصة وشراكات طويلة الأمد.",
+      "en": "Our services are available to everyone! We offer the Standard Package for individuals and startups, the Advanced Package for institutions and organizations, and the Partnership Tier for large enterprises that need customized solutions and long-term partnerships."
+    }
+  },
+  {
+    "id": "5",
+    "question": {
+      "ar": "كيف يساهم البرنامج في تحقيق رؤية 2030؟",
+      "en": "How does the program contribute to Vision 2030?"
+    },
+    "answer": {
+      "ar": "يتماشى عملنا مع أهداف رؤية 2030 من خلال تعزيز الأمن الغذائي، دعم التنمية الزراعية المستدامة، تطوير القدرات البحثية الوطنية، وحماية التنوع البيولوجي. كما نعمل على تمكين المزارعين بالتقنيات الحديثة وتطوير الشراكات الدولية.",
+      "en": "Our work aligns with Vision 2030 goals by enhancing food security, supporting sustainable agricultural development, developing national research capabilities, and protecting biodiversity. We also work on empowering farmers with modern technologies and developing international partnerships."
+    }
+  }
+]

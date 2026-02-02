@@ -1,0 +1,334 @@
+{
+  "ar": {
+    "nav": {
+      "about": "من نحن",
+      "whatWeDo": "ماذا نفعل",
+      "whyItMatters": "أهميتنا",
+      "success": "قصص النجاح",
+      "services": "الخدمات",
+      "news": "الأخبار",
+      "faq": "الأسئلة الشائعة",
+      "contact": "تواصل معنا"
+    },
+    "hero": {
+      "badge": "البرنامج الوطني",
+      "titleLine1": "مستقبل أكثر صحة",
+      "titleLine2": "للثروة الحيوانية",
+      "titleLine3": "ومصايد مستدامة ونظم بيئية مزدهرة",
+      "description": "حيث يلتقي العلم بالاستدامة، نمكّن المزارعين والباحثين والأطباء البيطريين وصناع السياسات بالبيانات التي تبني حيوانات أكثر صحة وإنتاجية ومستقبلاً أكثر أماناً",
+      "discoverMore": "اكتشف المزيد",
+      "contactUs": "تواصل معنا",
+      "explore": "اكتشف"
+    },
+    "stats": {
+      "animalSpecies": "أنواع حيوانية",
+      "successStories": "قصص نجاح",
+      "servicePackages": "باقات خدمية",
+      "visionAligned": "رؤية المملكة"
+    },
+    "about": {
+      "tag": "من نحن",
+      "title": "نقود التحول في قطاع الثروة الحيوانية والسمكية",
+      "lead": "نجمع بين معلومات الجينات الحيوانية والاتجاهات الصحية والبيانات الوبائية لبناء مستقبل أفضل للثروة الحيوانية والسمكية في المملكة.",
+      "text": "نركز على الإبل والأغنام والماشية والدجاج والخيول والماعز والموارد المائية، ونعمل على تمكين المزارعين والباحثين والأطباء البيطريين وصناع السياسات بالبيانات اللازمة لاتخاذ قرارات مستنيرة.",
+      "govCertified": "موثوق حكومياً",
+      "speciesTitle": "الأنواع التي نركز عليها",
+      "species": {
+        "camels": "الإبل",
+        "sheep": "الأغنام",
+        "cattle": "الماشية",
+        "chickens": "الدجاج",
+        "horses": "الخيول",
+        "goats": "الماعز",
+        "aquatic": "الموارد المائية"
+      }
+    },
+    "services": {
+      "tag": "ماذا نفعل",
+      "title": "التحول القائم على البيانات",
+      "subtitle": "نؤكد على التحسين الجيني مع حماية الثروة الحيوانية والسمكية من مسببات الأمراض، بما يتماشى مع استراتيجية التقنية الحيوية",
+      "geneticAnalysis": {
+        "title": "التحليل الجيني",
+        "description": "تحليل متقدم للجينوم لتحسين السلالات وتعزيز الصحة الحيوانية"
+      },
+      "dataAnalytics": {
+        "title": "تحليل البيانات",
+        "description": "رصد الاتجاهات الصحية والبيانات الوبائية لاتخاذ قرارات مستنيرة"
+      },
+      "pathogenProtection": {
+        "title": "حماية مسببات الأمراض",
+        "description": "حماية الثروة الحيوانية والسمكية من الأمراض والأوبئة"
+      },
+      "internationalCollab": {
+        "title": "التعاون الدولي",
+        "description": "شراكات عالمية لتبادل المعرفة والخبرات"
+      }
+    },
+    "impact": {
+      "tag": "لماذا يهم",
+      "title": "أثرنا على المستقبل",
+      "intro": "يتماشى عملنا مع رؤية 2030 وأطر الصحة الواحدة العالمية",
+      "badge": "رؤية 2030",
+      "items": {
+        "foodSecurity": "تحسين الأمن الغذائي والسلامة",
+        "empowerFarmers": "تمكين المزارعين والمنتجين",
+        "publicHealth": "حماية وتعزيز الصحة العامة",
+        "sustainable": "تعزيز الممارسات المستدامة والفعالة",
+        "biodiversity": "دعم التنوع البيولوجي",
+        "nativeBreed": "حماية السلالات المحلية"
+      }
+    },
+    "success": {
+      "tag": "قصص النجاح",
+      "title": "إنجازاتنا"
+    },
+    "packages": {
+      "tag": "باقات الخدمات",
+      "title": "اختر الباقة المناسبة لك",
+      "mostPopular": "الأكثر طلباً",
+      "inquireNow": "استفسر الآن",
+      "standard": {
+        "name": "الباقة الأساسية",
+        "badge": "للبداية",
+        "features": ["التنميط الجيني", "المعلوماتية الحيوية الأساسية", "دعم عبر البريد الإلكتروني"]
+      },
+      "advanced": {
+        "name": "الباقة المتقدمة",
+        "badge": "موصى به",
+        "features": ["خطوط أنابيب مخصصة", "معالجة ذات أولوية", "مدير حساب مخصص", "تقارير متقدمة"]
+      },
+      "partnership": {
+        "name": "باقة الشراكة",
+        "badge": "للمؤسسات",
+        "features": ["اتفاقيات طويلة الأمد", "تطوير مخصص", "تدريب في الموقع", "دعم على مدار الساعة"]
+      }
+    },
+    "news": {
+      "tag": "آخر الأخبار",
+      "title": "أخبار ومستجدات البرنامج",
+      "subtitle": "تابع آخر التطورات والإنجازات في مجال تنمية الثروة الحيوانية والسمكية",
+      "readMore": "اقرأ المزيد",
+      "backToNews": "العودة للأخبار"
+    },
+    "faq": {
+      "tag": "الأسئلة الشائعة",
+      "title": "إجابات على أسئلتكم",
+      "subtitle": "نجيب على الأسئلة الأكثر شيوعاً حول خدماتنا وبرامجنا",
+      "notFound": "لم تجد إجابتك؟",
+      "notFoundText": "تواصل معنا مباشرة وسنرد عليك في أقرب وقت"
+    },
+    "newsletter": {
+      "title": "ابق على اطلاع",
+      "description": "اشترك في نشرتنا الإخبارية للحصول على آخر الأخبار والتحديثات حول البرنامج الوطني لتنمية الثروة الحيوانية والسمكية",
+      "emailPlaceholder": "أدخل بريدك الإلكتروني",
+      "rolePlaceholder": "اختر تخصصك",
+      "subscribe": "اشترك الآن",
+      "subscribing": "جاري الاشتراك...",
+      "subscribed": "تم الاشتراك بنجاح!",
+      "privacy": "بالاشتراك، أنت توافق على سياسة الخصوصية الخاصة بنا. يمكنك إلغاء الاشتراك في أي وقت.",
+      "roles": {
+        "farmer": "مزارع / منتج",
+        "researcher": "باحث / أكاديمي",
+        "veterinarian": "طبيب بيطري",
+        "policymaker": "صانع قرار / حكومي",
+        "student": "طالب",
+        "industry": "قطاع خاص / صناعي",
+        "other": "أخرى"
+      }
+    },
+    "contact": {
+      "tag": "تواصل معنا",
+      "title": "نحن هنا لمساعدتك",
+      "subtitle": "تواصل معنا للاستفسارات أو لمعرفة المزيد عن خدماتنا وكيف يمكننا دعم مشاريعك",
+      "email": "البريد الإلكتروني",
+      "form": {
+        "name": "الاسم الكامل",
+        "email": "البريد الإلكتروني",
+        "organization": "المؤسسة",
+        "service": "الخدمة المطلوبة",
+        "selectService": "اختر الخدمة",
+        "message": "الرسالة",
+        "send": "إرسال الرسالة",
+        "sending": "جاري الإرسال...",
+        "sent": "تم الإرسال بنجاح!"
+      }
+    },
+    "footer": {
+      "description": "البرنامج الوطني لتنمية الثروة الحيوانية والسمكية - نحو مستقبل أكثر صحة واستدامة",
+      "quickLinks": "روابط سريعة",
+      "services": "الخدمات",
+      "contact": "تواصل معنا",
+      "copyright": "© 2025 البرنامج الوطني لتنمية الثروة الحيوانية والسمكية. جميع الحقوق محفوظة.",
+      "govBadge": "موقع حكومي رسمي"
+    },
+    "common": {
+      "other": "أخرى"
+    }
+  },
+  "en": {
+    "nav": {
+      "about": "About Us",
+      "whatWeDo": "What We Do",
+      "whyItMatters": "Why It Matters",
+      "success": "Success Stories",
+      "services": "Services",
+      "news": "News",
+      "faq": "FAQ",
+      "contact": "Contact"
+    },
+    "hero": {
+      "badge": "National Program",
+      "titleLine1": "A Healthier Future",
+      "titleLine2": "for Livestock",
+      "titleLine3": "Sustainable Fisheries & Thriving Ecosystems",
+      "description": "Where science meets sustainability, empowering farmers, researchers, vets, and policymakers with data that builds healthier, more productive animals and a safer future",
+      "discoverMore": "Discover More",
+      "contactUs": "Contact Us",
+      "explore": "Explore"
+    },
+    "stats": {
+      "animalSpecies": "Animal Species",
+      "successStories": "Success Stories",
+      "servicePackages": "Service Packages",
+      "visionAligned": "Vision Aligned"
+    },
+    "about": {
+      "tag": "Who We Are",
+      "title": "Leading the Transformation in Livestock & Fisheries",
+      "lead": "We combine animal genetic information with health trends and epidemiological data to build a better future for livestock and fisheries in the Kingdom.",
+      "text": "We focus on camels, sheep, cattle, chickens, horses, goats, and aquatic resources, working to empower farmers, researchers, veterinarians, and policymakers with the data needed for informed decision-making.",
+      "govCertified": "Government Certified",
+      "speciesTitle": "Species We Focus On",
+      "species": {
+        "camels": "Camels",
+        "sheep": "Sheep",
+        "cattle": "Cattle",
+        "chickens": "Chickens",
+        "horses": "Horses",
+        "goats": "Goats",
+        "aquatic": "Aquatic Resources"
+      }
+    },
+    "services": {
+      "tag": "What We Do",
+      "title": "Data-Driven Transformation",
+      "subtitle": "We emphasize genetic improvement while protecting livestock and fisheries from pathogens, aligned with biotechnology strategy",
+      "geneticAnalysis": {
+        "title": "Genetic Analysis",
+        "description": "Advanced genome analysis to improve breeds and enhance animal health"
+      },
+      "dataAnalytics": {
+        "title": "Data Analytics",
+        "description": "Monitoring health trends and epidemiological data for informed decisions"
+      },
+      "pathogenProtection": {
+        "title": "Pathogen Protection",
+        "description": "Protecting livestock and fisheries from diseases and epidemics"
+      },
+      "internationalCollab": {
+        "title": "International Collaboration",
+        "description": "Global partnerships for knowledge and expertise exchange"
+      }
+    },
+    "impact": {
+      "tag": "Why It Matters",
+      "title": "Our Impact on the Future",
+      "intro": "Our work aligns with Vision 2030 and global One Health frameworks",
+      "badge": "Vision 2030",
+      "items": {
+        "foodSecurity": "Improve Food Security and Safety",
+        "empowerFarmers": "Empower Farmers and Producers",
+        "publicHealth": "Protect and Enhance Public Health",
+        "sustainable": "Promote Sustainable and Efficient Practices",
+        "biodiversity": "Support Biodiversity",
+        "nativeBreed": "Native Breed Protection"
+      }
+    },
+    "success": {
+      "tag": "Success Stories",
+      "title": "Our Achievements"
+    },
+    "packages": {
+      "tag": "Service Packages",
+      "title": "Choose the Right Package for You",
+      "mostPopular": "Most Popular",
+      "inquireNow": "Inquire Now",
+      "standard": {
+        "name": "Standard Package",
+        "badge": "Starter",
+        "features": ["Genotyping", "Basic Bioinformatics", "Email Support"]
+      },
+      "advanced": {
+        "name": "Advanced Package",
+        "badge": "Recommended",
+        "features": ["Custom Pipelines", "Priority Processing", "Dedicated Account Manager", "Advanced Reporting"]
+      },
+      "partnership": {
+        "name": "Partnership Tier",
+        "badge": "Enterprise",
+        "features": ["Long-term Agreements", "Custom Development", "On-site Training", "24/7 Support"]
+      }
+    },
+    "news": {
+      "tag": "Latest News",
+      "title": "Program News & Updates",
+      "subtitle": "Stay updated with the latest developments and achievements in livestock and fisheries development",
+      "readMore": "Read More",
+      "backToNews": "Back to News"
+    },
+    "faq": {
+      "tag": "FAQ",
+      "title": "Answers to Your Questions",
+      "subtitle": "We answer the most common questions about our services and programs",
+      "notFound": "Didn't find your answer?",
+      "notFoundText": "Contact us directly and we'll get back to you soon"
+    },
+    "newsletter": {
+      "title": "Stay Informed",
+      "description": "Subscribe to our newsletter to get the latest news and updates about the National Livestock and Fisheries Development Program",
+      "emailPlaceholder": "Enter your email address",
+      "rolePlaceholder": "Select your role",
+      "subscribe": "Subscribe Now",
+      "subscribing": "Subscribing...",
+      "subscribed": "Subscribed Successfully!",
+      "privacy": "By subscribing, you agree to our privacy policy. You can unsubscribe at any time.",
+      "roles": {
+        "farmer": "Farmer / Producer",
+        "researcher": "Researcher / Academic",
+        "veterinarian": "Veterinarian",
+        "policymaker": "Policymaker / Government",
+        "student": "Student",
+        "industry": "Private Sector / Industry",
+        "other": "Other"
+      }
+    },
+    "contact": {
+      "tag": "Contact Us",
+      "title": "We're Here to Help",
+      "subtitle": "Contact us for inquiries or to learn more about our services and how we can support your projects",
+      "email": "Email",
+      "form": {
+        "name": "Full Name",
+        "email": "Email Address",
+        "organization": "Organization",
+        "service": "Service Required",
+        "selectService": "Select Service",
+        "message": "Message",
+        "send": "Send Message",
+        "sending": "Sending...",
+        "sent": "Sent Successfully!"
+      }
+    },
+    "footer": {
+      "description": "National Livestock and Fisheries Development Program - Towards a healthier and more sustainable future",
+      "quickLinks": "Quick Links",
+      "services": "Services",
+      "contact": "Contact",
+      "copyright": "© 2025 NFLDP. All rights reserved.",
+      "govBadge": "Official Government Website"
+    },
+    "common": {
+      "other": "Other"
+    }
+  }
+}

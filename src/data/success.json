@@ -1,0 +1,80 @@
+[
+  {
+    "id": "1",
+    "number": "01",
+    "icon": "check",
+    "title": {
+      "ar": "تتبع تفشي السالمونيلا",
+      "en": "Salmonella Outbreak Tracking"
+    },
+    "description": {
+      "ar": "رصد وتتبع ناجح لتفشي السالمونيلا باستخدام تقنيات التحليل الجيني المتقدمة",
+      "en": "Successful monitoring and tracking of Salmonella outbreak using advanced genetic analysis techniques"
+    }
+  },
+  {
+    "id": "2",
+    "number": "02",
+    "icon": "flask",
+    "title": {
+      "ar": "تحديد SNP للحفاظ على السلالات",
+      "en": "SNP Identification for Breed Conservation"
+    },
+    "description": {
+      "ar": "اكتشاف علامات جينية مهمة للحفاظ على السلالات المحلية وتحسينها",
+      "en": "Discovery of important genetic markers for preserving and improving local breeds"
+    }
+  },
+  {
+    "id": "3",
+    "number": "03",
+    "icon": "document",
+    "title": {
+      "ar": "جينوم مرجعي لحيوانات شبه الجزيرة العربية",
+      "en": "Arabian Peninsula Animal Reference Genome"
+    },
+    "description": {
+      "ar": "تطوير قاعدة بيانات جينومية مرجعية شاملة لحيوانات المنطقة",
+      "en": "Development of comprehensive reference genomic database for regional animals"
+    }
+  },
+  {
+    "id": "4",
+    "number": "04",
+    "icon": "users",
+    "title": {
+      "ar": "عروض في المؤتمرات الدولية",
+      "en": "International Conference Presentations"
+    },
+    "description": {
+      "ar": "مشاركة نتائج أبحاثنا في منتديات علمية عالمية مرموقة",
+      "en": "Sharing our research findings at prestigious global scientific forums"
+    }
+  },
+  {
+    "id": "5",
+    "number": "05",
+    "icon": "building",
+    "title": {
+      "ar": "ندوة معهد روزلين",
+      "en": "Roslin Institute Seminar"
+    },
+    "description": {
+      "ar": "مشاركة فعالة في ندوات معهد روزلين العلمية الرائدة",
+      "en": "Active participation in Roslin Institute's leading scientific seminars"
+    }
+  },
+  {
+    "id": "6",
+    "number": "06",
+    "icon": "globe",
+    "title": {
+      "ar": "مراقبة مقاومة مضادات الميكروبات الإقليمية",
+      "en": "Regional Antimicrobial Resistance Surveillance"
+    },
+    "description": {
+      "ar": "إنشاء نظام مراقبة إقليمي لرصد مقاومة مضادات الميكروبات",
+      "en": "Establishing a regional surveillance system for antimicrobial resistance monitoring"
+    }
+  }
+]

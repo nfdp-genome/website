@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "title": {
+      "ar": "إطلاق قاعدة البيانات الجينومية المرجعية للإبل العربية",
+      "en": "Launch of the Reference Genomic Database for Arabian Camels"
+    },
+    "excerpt": {
+      "ar": "أعلن البرنامج الوطني عن إطلاق أول قاعدة بيانات جينومية مرجعية شاملة للإبل العربية، مما يمثل خطوة كبيرة نحو الحفاظ على السلالات المحلية.",
+      "en": "The National Program announced the launch of the first comprehensive reference genomic database for Arabian camels, marking a significant step towards preserving local breeds."
+    },
+    "content": {
+      "ar": "أعلن البرنامج الوطني لتنمية الثروة الحيوانية والسمكية عن إطلاق أول قاعدة بيانات جينومية مرجعية شاملة للإبل العربية. تمثل هذه الخطوة إنجازاً كبيراً في مجال الحفاظ على السلالات المحلية وتحسينها وراثياً. تحتوي قاعدة البيانات على معلومات جينية تفصيلية لآلاف الإبل من مختلف أنحاء المملكة، مما يتيح للباحثين والمربين فهماً أعمق للتنوع الوراثي وخصائص السلالات المختلفة.",
+      "en": "The National Livestock and Fisheries Development Program announced the launch of the first comprehensive reference genomic database for Arabian camels. This step represents a major achievement in the field of preserving local breeds and improving them genetically. The database contains detailed genetic information for thousands of camels from various parts of the Kingdom, allowing researchers and breeders a deeper understanding of genetic diversity and characteristics of different breeds."
+    },
+    "category": {
+      "ar": "بحث علمي",
+      "en": "Research"
+    },
+    "date": "2025-01-15",
+    "image": "/images/Vertical img1.jpg",
+    "featured": true
+  },
+  {
+    "id": "2",
+    "title": {
+      "ar": "توقيع اتفاقية تعاون مع معهد روزلين البريطاني",
+      "en": "Signing Cooperation Agreement with UK's Roslin Institute"
+    },
+    "excerpt": {
+      "ar": "تم توقيع اتفاقية تعاون استراتيجي لتبادل الخبرات في مجال علم الجينوم الحيواني.",
+      "en": "A strategic cooperation agreement was signed to exchange expertise in animal genomics."
+    },
+    "content": {
+      "ar": "في إطار سعي البرنامج الوطني لتعزيز التعاون الدولي، تم توقيع اتفاقية شراكة استراتيجية مع معهد روزلين البريطاني الرائد في مجال علم الجينوم الحيواني. تهدف الاتفاقية إلى تبادل الخبرات والمعرفة، والتعاون في المشاريع البحثية المشتركة، وتدريب الكوادر الوطنية على أحدث التقنيات في مجال التحليل الجيني.",
+      "en": "As part of the National Program's efforts to enhance international cooperation, a strategic partnership agreement was signed with the UK's Roslin Institute, a leader in animal genomics. The agreement aims to exchange expertise and knowledge, collaborate on joint research projects, and train national cadres on the latest techniques in genetic analysis."
+    },
+    "category": {
+      "ar": "شراكات",
+      "en": "Partnerships"
+    },
+    "date": "2025-01-08",
+    "image": "/images/Vertical img2.jpg",
+    "featured": false
+  },
+  {
+    "id": "3",
+    "title": {
+      "ar": "ورشة عمل تدريبية للمزارعين حول التحسين الوراثي",
+      "en": "Training Workshop for Farmers on Genetic Improvement"
+    },
+    "excerpt": {
+      "ar": "نظم البرنامج ورشة عمل متخصصة لتدريب المزارعين على أحدث تقنيات التحسين الوراثي.",
+      "en": "The program organized a specialized workshop to train farmers on the latest genetic improvement techniques."
+    },
+    "content": {
+      "ar": "نثم البرنامج الوطني ورشة عمل تدريبية متخصصة استهدفت المزارعين والمربين من مختلف مناطق المملكة. تناولت الورشة أحدث تقنيات التحسين الوراثي وكيفية تطبيقها عملياً لتحسين إنتاجية الثروة الحيوانية. شارك في الورشة أكثر من 100 مزارع، واستفادوا من الجلسات التطبيقية والعروض العملية.",
+      "en": "The National Program organized a specialized training workshop targeting farmers and breeders from various regions of the Kingdom. The workshop covered the latest genetic improvement techniques and how to apply them practically to improve livestock productivity. More than 100 farmers participated in the workshop and benefited from practical sessions and demonstrations."
+    },
+    "category": {
+      "ar": "فعاليات",
+      "en": "Events"
+    },
+    "date": "2024-12-28",
+    "image": "/images/Vertical img3.jpg",
+    "featured": false
+  }
+]

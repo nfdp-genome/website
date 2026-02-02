@@ -1,0 +1,42 @@
+.backToTop {
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  width: 48px;
+  height: 48px;
+  background: var(--primary);
+  color: var(--white);
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-lg);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: all var(--transition-base);
+  z-index: 100;
+  cursor: pointer;
+  border: none;
+}
+
+[dir="ltr"] .backToTop {
+  left: auto;
+  right: 30px;
+}
+
+.backToTop.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.backToTop:hover {
+  background: var(--primary-dark);
+  transform: translateY(-5px);
+}
+
+.backToTop svg {
+  width: 24px;
+  height: 24px;
+}
